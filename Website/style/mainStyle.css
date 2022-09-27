@@ -1,0 +1,21 @@
+body{
+    background-color: #0A192F;
+    color: #CCD6F6;
+    font-family: 'Anonymous Pro';
+}
+
+.textColor{
+    color: #CCD6F6;
+}
+
+.accentColor{
+    color: #5BEAAB;
+}
+
+.mainColorBg{
+    background-color: #0A192F;
+}
+
+.mainColorBgBright{
+    background-color: #0c2f4b;
+}

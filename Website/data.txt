@@ -1,0 +1,4 @@
+Background color: 0A192F
+Background color bright: #0e2a53
+text: #CCD6F6
+accent: #0c2f4b; 
