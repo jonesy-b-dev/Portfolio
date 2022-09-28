@@ -1,27 +1,31 @@
-body{
-    background-color: #0A192F;
-    color: #CCD6F6;
-    font-family: 'Anonymous Pro';
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  font-family: "Anonymous Pro";
 }
 
-.textColor{
-    color: #CCD6F6;
+.textColor {
+  color: #ccd6f6;
 }
 
-.accentColor{
-    color: #5BEAAB;
+.accentColor {
+  color: #5beaab;
 }
 
-.mainColorBg{
-    background-color: #0A192F;
+.mainColorBg {
+  background-color: #0a192f;
 }
 
-.mainColorBgBright{
-    background-color: #0c2f4b;
+.mainColorBgBright {
+  background-color: #0c2f4b;
 }
 
-.fullPage{
-    padding-top: 15%;
-    padding-bottom: 15%;
-    padding-left: 10%;
+.fullPage {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 10%;
+}
+
+.navbar-brand:hover {
+  color: #ccd6f6;
 }
