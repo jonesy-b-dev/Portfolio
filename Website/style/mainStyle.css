@@ -20,12 +20,47 @@ body {
   background-color: #0c2f4b;
 }
 
-.fullPage {
-  padding-top: 15%;
+.fullPage{
+  padding-top: 20%;
   padding-bottom: 15%;
   padding-left: 10%;
+  padding-right: 10%;
 }
 
 .navbar-brand:hover {
   color: #ccd6f6;
+}
+
+.padding{
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projectBtn{
+  background-color: #0e2a53;
+  border: none;
+  height: 50px;
+  width: 110px;
+  padding: 5px;
+  padding-top: 10px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.projectBtn a{
+  text-decoration: none;
+  color: #5beaab;
+}
+
+.projectBtn:hover{
+  box-shadow: 2px 2px 0px #5beaab;
+}
+
+.hoverthing{
+  transition: all 0.3s ease-in-out;
+}
+
+.hoverthing:hover{
+
+  text-shadow: 4px 4px 0px #121127;
 }
