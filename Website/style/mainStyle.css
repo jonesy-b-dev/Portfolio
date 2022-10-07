@@ -4,6 +4,7 @@ body {
   font-family: "Anonymous Pro";
 }
 
+/*Colors*/
 .textColor {
   color: #ccd6f6;
 }
@@ -20,6 +21,7 @@ body {
   background-color: #0c2f4b;
 }
 
+/*Other Stuff*/
 .fullPage{
   padding-top: 20%;
   padding-bottom: 15%;
@@ -47,6 +49,7 @@ body {
   margin: 10px;
   transition: all 0.3s ease-in-out;
 }
+
 .projectBtn a{
   text-decoration: none;
   color: #5beaab;
@@ -56,11 +59,18 @@ body {
   box-shadow: 2px 2px 0px #5beaab;
 }
 
+.projectBox{
+  box-shadow: 2px 2px 0px #5beaab;
+}
+
 .hoverthing{
   transition: all 0.3s ease-in-out;
 }
 
 .hoverthing:hover{
-
   text-shadow: 4px 4px 0px #121127;
+}
+
+.centerText{
+  text-align: center;
 }
