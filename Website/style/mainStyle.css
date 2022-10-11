@@ -39,6 +39,7 @@ body {
   padding-right: 10%;
 }
 
+/*project related css*/
 .projectBtn{
   background-color: #0e2a53;
   border: none;
@@ -75,6 +76,7 @@ body {
   text-align: center;
 }
 
+/*media css*/
 @media (max-width: 490px){
   .hideMobile{
     display: none;
