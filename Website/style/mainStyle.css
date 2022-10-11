@@ -74,3 +74,9 @@ body {
 .centerText{
   text-align: center;
 }
+
+@media (max-width: 490px){
+  .hideMobile{
+    display: none;
+  }
+}
