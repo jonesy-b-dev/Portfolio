@@ -65,12 +65,21 @@ body {
   box-shadow: 2px 2px 0px #5beaab;
 }
 
-.hoverthing{
+/*Hover effects*/
+.hoverText{
   transition: all 0.3s ease-in-out;
 }
 
-.hoverthing:hover{
+.hoverText:hover{
   text-shadow: 4px 4px 0px #121127;
+}
+
+.hoverBox{
+  transition: all 0.3s ease-in-out;
+}
+
+.hoverBox:hover{
+  box-shadow: 4px 4px 0px #5beaab;
 }
 
 .centerText{
