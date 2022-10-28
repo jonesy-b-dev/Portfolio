@@ -86,6 +86,16 @@ body {
   text-align: center;
 }
 
+/*mailto*/
+.mailto{
+  color: #ccd6f6;
+  text-decoration-color: #5beaab;
+}
+
+.mailto:hover{
+
+  color: #5beaab;
+}
 /*media css*/
 @media (max-width: 490px){
   .hideMobile{
