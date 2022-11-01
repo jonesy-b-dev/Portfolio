@@ -86,6 +86,10 @@ body {
   text-align: center;
 }
 
+.mePicture{
+  border-radius: 50%;
+  width: 10%;
+}
 /*mailto*/
 .mailto{
   color: #ccd6f6;
