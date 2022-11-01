@@ -108,9 +108,20 @@ body {
 }
 
 /*Animations*/
-.fadeIn 
+.fadeInLong
 { 
   animation: fadeIn 2s; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  1% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeInShort
+{ 
+  animation: fadeIn 1s; 
   animation-fill-mode: forwards;
 }
 
