@@ -29,6 +29,12 @@ body {
   padding-right: 10%;
 }
 
+.hideMobile{
+  user-select: none;
+}
+.navbar-brand{
+  user-select: none;
+}
 .navbar-brand:hover {
   color: #ccd6f6;
 }
@@ -99,6 +105,7 @@ body {
 
   color: #5beaab;
 }
+
 /*media css*/
 @media (max-width: 490px){
   .hideMobile{
