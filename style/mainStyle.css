@@ -113,6 +113,18 @@ body {
   }
 }
 
+@media (min-width: 490px){
+  .hidePc{
+    display: none;
+  }
+}
+
+@media (max-width: 490px){
+  .showMobile{
+    display: flex;
+  }
+}
+
 /*Animations*/
 .fadeInLong
 { 
