@@ -4,6 +4,10 @@ body {
   font-family: "Anonymous Pro";
 }
 
+.noScroll{
+  overflow: hidden;
+}
+
 /*Colors*/
 .textColor {
   color: #ccd6f6;
