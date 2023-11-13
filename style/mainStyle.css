@@ -4,7 +4,7 @@ body {
   font-family: "Anonymous Pro";
 }
 
-.noScroll{
+.noScroll2{
   overflow: hidden;
 }
 
@@ -164,4 +164,25 @@ body {
 @keyframes fadeIn {
   1% { opacity: 0; }
   100% { opacity: 1; }
+}
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccd6f6;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
