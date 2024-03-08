@@ -5,7 +5,8 @@ body {
 }
 
 .noScroll2{
-  overflow: hidden;
+  overflow-x: hidden;
+  
 }
 
 /*Colors*/
@@ -27,16 +28,23 @@ body {
 
 /*Other Stuff*/
 .fullPage{
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.underScreen{
+  text-align: center;
+  margin-top: -20vh;
+}
+
+.underSpotlight{
+  margin-top: 35vh;
 }
 
 .hideMobile{
