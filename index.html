@@ -14,15 +14,73 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro">
     <link rel="icon" href="/images/icon.png">
     <script src="./javascripts/main.js"></script>
+    <script src="./javascripts/typeWriter.js"></script>
   </head>
-  <body class="noScroll2" >
+  <body onload="typeWriter()">
     <div id="navbar-container"></div>
     <br><br><br>
-        <div class="fullPage fadeInLong">
-          <h2>Hi, I’m Jonas de Bruin(2005), a software developer student at SintLucas Eindhoven.</h2><br>
-          <h2>I like to make desktop applications and games!</h2><br>
-          <h3>Learn more about me by clicking one of the menu buttons at the top!</h3>
-          
+      <div class="fullPage fadeInLong">
+        <h2 id="mainText"></h2>
+      </div>
+
+      
+        
+    <h1 class="accentColor underScreen">↓ Check out my projects below ↓</h1>
+    <div class="container fadeInLong underSpotlight">
+      <div class="row text-center underScreen">
+        <div class="col-lg-6">
+          <div class="row text-center">
+            <div class="col-sm-4 mainColorBgBright"><br>
+              <b>Róka</b> was a school project where we had to make a game with 2 developers and 3 designers. We created a boss fight game with a chase part and a fight part. The game is now also playable on itch.io.<br><br>
+            </div>
+            <div class="col-sm-8"><br>
+              <img alt="Róka Thumbnail" class="projectBox" src="../images/RókaThumbnail.png"><br>
+              <a href="../pages/projectPages/projectRóka.html"><button class="projectBtn"><h6>More Info</h6></button></a>
+            </div>
+          </div><br>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="row text-center">
+            <div class="col-sm-4 mainColorBgBright"><br>
+              <b>Internship CrescentOne</b> is an internship I'm currently doing in the third of my software development study. Here I worked a lot on my NodeJS, Git, API development and genral programming skills. Here I also created my first npm package.<br><br>
+            </div>
+            <div class="col-sm-8"><br>
+              <img alt="CrescentOne Thumbnail" class="projectBox" src="../images/CrescentOneThumbnail.png"><br>
+              <a href="../pages/projectPages/projectInternship.html"><button class="projectBtn"><h6>More Info</h6></button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12"><br><br></div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-lg-6 ">
+            <div class="row text-center">
+              <div class="col-sm-4 mainColorBgBright"><br>
+                <b>Adventure Game</b> is a text based adventure game that I made in the second year. You have some basic features and a dynamic inventory. It's written in C# and is the first project to use a lot of OOP programming.
+              </div>
+              <div class="col-sm-8"><br>
+                <img alt="Adventure Game Thumbnail" class="projectBox" src="../images/OpenGLThumbnail.png"><br>
+                <a href="../pages/projectPages/projectAdventureGame.html"><button class="projectBtn"><h6>More Info</h6></button></a>
+              </div>
+            </div><br>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="row text-center">
+            <div class="col-sm-4 mainColorBgBright"><br>
+              <b>The Virtual Production Movie </b>was a movie I worked on togther with some people from my school, a few other schools and recorded at BUAS<br><br>
+            </div>
+            <div class="col-sm-8"><br>
+              <img alt="Virtual Production Movie Thumbnail" class="projectBox" src="../images/VirtualProductionThumbnail.png"><br>
+              <a href="../pages/projectPages/projectVPS.html"><button class="projectBtn"><h6>More Info</h6></button></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="/javascript/main.js"></script>

@@ -5,7 +5,8 @@ body {
 }
 
 .noScroll2{
-  overflow: hidden;
+  overflow-x: hidden;
+  
 }
 
 /*Colors*/
@@ -27,10 +28,23 @@ body {
 
 /*Other Stuff*/
 .fullPage{
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.underScreen{
+  text-align: center;
+  margin-top: -20vh;
+}
+
+.underSpotlight{
+  margin-top: 35vh;
 }
 
 .hideMobile{
@@ -186,4 +200,16 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }

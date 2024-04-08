@@ -1,0 +1,70 @@
+.block-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  min-height: 90vh; /* Set a minimum height to ensure blocks fill the screen */
+}
+
+.block {
+    position: relative;
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Add some space between the blocks */
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove default link underline */
+    color: #fff; /* Set text color to white or another contrasting color */
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.block:hover {
+    transform: scale(1.02); /* Enlarge the block on hover */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay without hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.6s ease-in-out;
+}
+
+.block:hover .image-overlay {
+    opacity: 1; /* Show the overlay on hover */
+}
+
+.image-overlay img {
+    width: 100%; /* Make the image fill the overlay */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Adjust border-radius as needed */
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.block:hover .image-overlay img {
+    transform: scale(1.2); /* Enlarge the image on hover */
+    opacity: 1; /* Make the image fully visible on hover */
+}
+
+.music, .portfolio {
+    background-color: #21407c; /* Add your preferred background color */
+}
+
+
+/* Media query for screens less than 1000px */
+@media (max-width: 1000px) {
+  .block {
+      width: 100%; /* Set the width to 100% for smaller screens */
+  }
+  .block-container{
+    min-height: 85vh;
+  }
+}
