@@ -6,7 +6,7 @@ function typeWriter() {
   if (i < txt.length) {
     document.getElementById("mainText").innerHTML += txt.charAt(i);
     i++;
-    var typingSpeed = Math.floor(Math.random() * 35) + 20; 
+    var typingSpeed = Math.floor(Math.random() * 35) + 10; 
     var delay = txt[i] === ' ' ? typingSpeed * 2 : typingSpeed;
     setTimeout(typeWriter, delay);
   }
