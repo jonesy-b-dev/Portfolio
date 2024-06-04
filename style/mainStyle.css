@@ -9,6 +9,10 @@ body {
   
 }
 
+.rowFix{
+  --bs-gutter-x: 0rem;
+}
+
 /*Colors*/
 .textColor {
   color: #ccd6f6;
