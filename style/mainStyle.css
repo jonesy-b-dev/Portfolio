@@ -30,6 +30,12 @@ body {
   background-color: #0c2f4b;
 }
 
+.linksNavbarCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Other Stuff*/
 .fullPage{
   position: relative;
