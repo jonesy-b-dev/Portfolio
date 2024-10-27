@@ -101,6 +101,21 @@ body {
   box-shadow: 2px 2px 0px #5beaab;
 }
 
+.bigButton{
+  background-color: #0e2a53;
+  border: none;
+  padding: 20px;
+  padding-top: 27px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #5beaab;
+}
+
+.bigButton:hover{
+  box-shadow: 2px 2px 0px #5beaab;
+}
+
 /*Hover effects*/
 .hoverText{
   transition: all 0.3s ease-in-out;
