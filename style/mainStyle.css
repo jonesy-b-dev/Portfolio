@@ -151,6 +151,22 @@ body {
   color: #5beaab;
 }
 
+.no-margin {
+  margin: 0;
+}
+
+.project-block {
+  margin: 0px;
+
+  @media (max-width: 991px) {
+    margin: 8px;
+  }
+
+  div:first-child {
+    padding: 12px
+  }
+}
+
 /*media css*/
 @media (max-width: 490px){
   .hideMobile{
