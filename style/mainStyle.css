@@ -105,6 +105,11 @@ body {
   object-fit: contain;
   height: auto;
   width: auto;
+  padding-right: 30px;
+}
+
+.centerStar{
+  padding-top: 6px !important;
 }
 
 .cardBox.div{
