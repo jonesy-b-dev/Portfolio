@@ -110,10 +110,23 @@ body {
 }
 
 .skillText{
-  /*display: none;*/
+  display: block;
+  max-height: 0;
   padding: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px ;
+  transform-origin: top;
+  transform: rotateX(90deg);
+  transition: transform 250ms, max-height 250ms 0ms;
+  z-index: -1;
+}
+
+.active.skillText{
+  display: block !important;
+  max-height: 5000px;
+  padding-top: -20px !important;
+  transform: rotateX(0deg);
+  box-shadow: inset 0 9px 5px -5px #0a192f;
 }
 
 .centerStar{
@@ -169,6 +182,13 @@ body {
 
 .hoverBox:hover{
   box-shadow: 4px 4px 0px #5beaab;
+}
+
+.hoverBox:hover + .skillText{ /*gets first skill text after hoverbox adjasod child selector*/
+  box-shadow: inset 0 9px 5px -5px #0a192f,
+  4px 4px 0px #5beaab,
+  -4px 4px 0px #5beaab;
+  transition: all 0.3s ease-in-out;
 }
 
 .centerText{
