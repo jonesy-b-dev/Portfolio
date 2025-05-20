@@ -5,17 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jonas de Bruin</title>
-    <link ref="preconnect" href="https://fonts.gstatic.com">
-    <link ref="preconnect" href="https://ka-f.fontawesome.com">
+  <link ref="preconnect" href="https://fonts.gstatic.com">
+  <link ref="preconnect" href="https://ka-f.fontawesome.com">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link href="../style/mainStyle.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/1c6bb06309.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro">
-    <link rel="icon" href="/images/icon.jpg">
+  <link rel="icon" href="/images/icon.jpg">
   <script src="../javascripts/main.js"></script>
+  <script src="../javascripts/skillPage.js"></script>
 </head>
-<body class="noScroll" >
+
+<body class="noScroll">
   <div id="navbar-container-otherPages"></div>
   <br><br><br>
   <!--Title-->
@@ -24,46 +26,339 @@
       <h2 class="accentColor">Skills (outdated!) rebuild of this page sometime</h2>
     </div>
   </div>
+  <div class="text-center p-3">
+    These are my most notable skills with some projects related to them, click any skills to see information about it!
+  </div>
 
-  <div class="container fadeInLong">
-    <div class="row">
-      <div class="col d-flex justify-content-center">
-        <div class="card mainColorBgBright p-3 m-2 hoverBox" style="width: 18rem;">
-          <img src="../images/CsLogo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><div class="text-center accentColor"><b>Since 2020</b></div><br>C# was the first language I started to learn properly after doing some web development. I have been learning it since 2020 and really got into it since 2021.</p>
-          </div>
+  <div class="m-3"> <!--Place margin here otherwise everything breaks for god fck sake-->
+    <div class="container fadeInLong">
+    <h3 class="text-center accentColor">
+      Computer Science
+    </h3>
+    <hr>
+      <!-- ITEM ONE -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(1)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/CsLogo.png" class="skillImg hideMobile" alt="C# logo">
+          <h2 class="skillCaret1 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">C#</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="skillCaret1 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
         </div>
       </div>
-      <div class="col d-flex justify-content-center">
-        <div class="card mainColorBgBright p-3 m-2 hoverBox" style="width: 18rem;">
-          <img src="../images/CppLogo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><div class="text-center accentColor"><b>Since 2022</b></div><br>C++ is a language I always wanted to learn, but was hard to get into. I have watched a lot of video's about it the ones from "The Cherno" helped me the most. I started learning it in 2020 but left it behind for long. In 2022 I really got into it after knowing C# better.</p>
-          </div>
-        </div>
+      <div id="skill1" class="skillText mainColorBgBright">
+        C# was one of the first languages i got my hands on after learning some html/css in 2020.
+        Now it is one of my best languages.
+        I've got years of experience with it making games in Unity and I worked with it during my 5 months of internship
+        at Ricoh Netherlands with ASP.NET.
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto" href="projectPages/projectAppBooter.html"><u>AppBooter</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectRóka.html"><u>Róka</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectGrappleGame.html"><u>Grapple Game</u></a>
+          </li>
+        </ul>
       </div>
 
-      <div class="col d-flex justify-content-center">
-        <div class="card mainColorBgBright p-3 m-2 hoverBox" style="width: 18rem;">
-          <img src="../images/UEFiveLogo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><div class="text-center accentColor"><b>Since 2018</b></div><br>I have been using Unreal Engine since 2018 and did some level design in it. In 2020 I started making games in it and have been using it quite often since then. In 2023 I also worked on a Virtual Production movie with Unreal Engine.</p>
-          </div>
+      <!-- ITEM TWO -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(2)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/CppLogo.png" class="skillImg hideMobile" alt="C++ logo">
+          <h2 class="skillCaret2 m-2 fa-solid fa-caret-down hidePc"></h2>
         </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">C++</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret2 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill2" class="skillText mainColorBgBright">
+        C++ is a language I have always been interested in. 
+        Over the years ive picked up a lot of projects using C++. 
+        Especially in projects like my Mouse Game and my OpenGL experiments I have learned a lot of C++.
+        This language I have a lot of motivation for to learn.
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto" href="projectPages/projectMouseGame.html"><u>Mouse Game</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectStellar.html"><u>Stellar Engine</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectSFML.html"><u>SFML experiments</u></a>
+          </li>
+        </ul>
       </div>
 
-      <div class="col d-flex justify-content-center">
-        <div class="card mainColorBgBright p-3 m-2 hoverBox" style="width: 18rem;">
-          <img src="../images/UnityLogo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><div class="text-center accentColor"><b>Since 2021</b></div><br>I have used Unity in the past a bit but not much and started using it in 2021 due to school. I have made several projects in it like the Grapple Game you can check out on the projects page.</p>
-          </div>
+      <!-- ITEM THREE -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(3)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/LinuxLogo.png" class="skillImg hideMobile" alt="Linux logo">
+          <h2 class="skillCaret3 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Linux</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret3 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
         </div>
       </div>
+      <div id="skill3" class="skillText mainColorBgBright">
+        Linux has been of interest for a long time. In the past I experimented a lot with it on a virtual machine, mainly with Arch Linux.
+        I had lots of trouble with it over the years and broke my VM's really often.
+        Since summer 2025 I've been using Arch Linux as my daily driver on my PC.
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto" href="https://github.com/jonesy-b-dev/LinuxConfigFiles"><u>Linux config files</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="https://github.com/jonesy-b-dev/LinuxInstallScripts"><u>Linux install scripts</u></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ITEM FOUR -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(4)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/UnityLogo.png" class="skillImg hideMobile" alt="Unity logo">
+          <h2 class="skillCaret4 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Unity</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret4 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill4" class="skillText mainColorBgBright">
+        Over the 4 years of my MBO Software Development study I was able to put lot of time in the Unity Engine.
+        It's not an product I still reguarly use but I got a lot of experience from working with it.
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto" href="projectPages/projectGrappleGame.html"><u>Grapple Game</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectRóka.html"><u>Róka</u></a>
+          </li>
+        </ul>
+      </div>
+      <!-- ITEM FIVE -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(5)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/HtmlLogo.png" class="skillImg hideMobile" alt="HTML logo">
+          <h2 class="skillCaret5 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Web</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret5 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill5" class="skillText mainColorBgBright">
+        My web development journey has always been on the side.
+        I never really enjoyed it much but I did take some time understading how the web works. This website and my internship at Ricoh Netherlands gave me the most experience in web.
+        I dont do a lot of web thats why I put it in 1 skill.
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto"><u>This website!</u></a>
+          </li>
+          <li>
+            <a class="mailto" href="projectPages/projectRóka.html"><u>Internship Ricoh</u></a>
+          </li>
+        </ul>
+      </div>
+
+    <h3 class="text-center accentColor">
+      Music
+    </h3>
+    <hr>
+      <!-- ITEM SIX -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(6)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/MusicLogo.png" class="skillImg hideMobile" alt="Music logo">
+          <h2 class="skillCaret6 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Production</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="skillCaret6 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill6" class="skillText mainColorBgBright">
+        I have been producing music since 2017. Over the years I gained a lot of knowledge in many genres. More info you can find on the music page!
+        <br>
+        <br>
+        <div class="accentColor"><b>Notable projects</b></div>
+        <ul>
+          <li>
+            <a class="mailto" href="music.html"><u>Music Page</u></a>
+          </li>
+          <li>
+            <a class="mailto" target="_blank" href="https://open.spotify.com/artist/4RHe8Cri20sHVBSe0sUGx6?si=qpA6kOFRTGSBCkRMJYY3XA"><u>Spotify</u></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ITEM SEVEN -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(7)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/guitarIcon.png" class="skillImg hideMobile" alt="Guitar logo">
+          <h2 class="skillCaret7 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Guitar</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret8 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill7" class="skillText mainColorBgBright">
+        Since August 2024 I have been teaching myself guitar.
+        I have a lot of motivation in learning this instrument and I am exited in where it brings me.
+      </div>
+
+      <!-- ITEM EIGHT -->
+      <div class="row cardBox mainColorBgBright hoverBox d-flex justify-content-between align-items-center"
+        onclick="OpenText(8)">
+
+        <div class="col-1 text-center align-items-center">
+          <img src="../images/pianoIcon.png" class="skillImg hideMobile" alt="Paino logo">
+          <h2 class="skillCaret8 m-2 fa-solid fa-caret-down hidePc"></h2>
+        </div>
+
+        <div class="col-2 ps-4 text-left align-items-center">
+          <h2 class="m-0">Piano</h2>
+        </div>
+
+        <div class="col">
+        </div>
+
+        <div class="col-8 text-end align-items-center user-select-none">
+          <h2 class="fa-solid fa-star centerStar"></h2>
+          <h2 class="fa-solid fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="fa-regular fa-star"></h2>
+          <h2 class="skillCaret8 fa-solid ml-2 mt-2 fa-caret-down hideMobile"></h2>
+        </div>
+      </div>
+      <div id="skill8" class="skillText mainColorBgBright">
+        I started playing keyboard as a little kid. Tho over the years I stopped playing it and now I only play it once in a while and lost most of my skill.
+        I do want to pick it up again so I might be playing soon again.
+      </div>
+
     </div>
   </div>
-<br>
+  <br>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
