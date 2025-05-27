@@ -211,6 +211,12 @@ body {
   margin: 0;
 }
 
+.fixAlignment{
+  display: inline-block;
+  transform: translateY(-3px);
+  width: 15px;
+}
+
 .project-block {
   margin: 0px;
 
