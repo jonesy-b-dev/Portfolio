@@ -71,6 +71,13 @@ body {
   margin: 20px;
 }
 
+.noBorder{
+  border: none;
+}
+
+.noBorder:focus{
+  box-shadow: none;
+}
 
 /*project related css*/
 .projectBtn{
