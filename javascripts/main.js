@@ -24,3 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("navbar-container-otherPages").innerHTML = data;
         });
 });
+
+//back button
+function goBack() {
+    history.back();
+}
