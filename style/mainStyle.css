@@ -4,7 +4,7 @@ body {
   font-family: "Anonymous Pro";
 }
 
-.noScroll2{
+.noScroll{
   overflow-x: hidden;
   
 }
@@ -335,4 +335,7 @@ body {
 /* other */
 .ml-2{ /* Customer ml-2 from bootstrap because it doesnt flipping work */
   margin-left: 0.5rem !important;
+}
+.ml-4{ /* Customer ml-2 from bootstrap because it doesnt flipping work */
+  margin-left: 2rem !important;
 }
