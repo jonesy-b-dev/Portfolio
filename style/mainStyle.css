@@ -278,6 +278,7 @@ body {
 /*Animations*/
 .fadeInLong
 { 
+  opacity: 0;
   animation: fadeIn 2s; 
   animation-fill-mode: forwards;
 }
@@ -289,6 +290,7 @@ body {
 
 .fadeInShort
 { 
+  opacity: 0;
   animation: fadeIn 1s; 
   animation-fill-mode: forwards;
 }
