@@ -235,6 +235,12 @@ body {
   }
 }
 
+.youtubeVideo{
+  display: flex;
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
+
 /*media css*/
 @media (max-width: 490px){
   .hideMobile{
@@ -259,21 +265,6 @@ body {
     display: none !important;
   }
 }
-
-@media (width < 1200px){
-  #YouTube{
-    width: calc(560px * 0.8);
-    height: calc(315px * 0.8);
-  }
-}
-
-@media (width < 500px){
-  #YouTube{
-    width: calc(560px * 0.6);
-    height: calc(315px * 0.6);
-  }
-}
-
 
 /*Animations*/
 .fadeInLong
