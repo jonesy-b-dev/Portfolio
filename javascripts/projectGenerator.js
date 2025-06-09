@@ -48,7 +48,7 @@ projects.push(new Project(
     "AppBooter", 
     "2022",
     "/images/ProjectAppBooter/AppBooterImgOne.png",
-    "During my internship at Ricoh Netherlands I worked a lot with ASP.NET and SQL to work on a internal piece of software that holds informationa bout what products customers have.AppBooter is a ongoing side project of me. It’s mostly to test my skills and learn more about programming with C# and .net forms. The main idea is to start a custom set of apps in bulk. You will have groups too so you can start different sets of apps. You can use it when you for example want to code and with one click you can start Visual Studio, GitHub etc. It’s in its early stages of development but having a lot fun making it. It has a lot of rough edges but I’m refining it bit by bit.",
+    "AppBooter was a old side project of me. It’s mostly to test my skills and learn more about programming with C# and .NET forms. The main idea is to start a custom set of apps in bulk. You will have groups too so you can start different sets of apps. You can use it when you for example want to code and with one click you can start Visual Studio, GitHub etc. It never really got anywhere far but had a lot of fun making it and learned a lot about C# from it.",
     "",
     "C#/.NET Forms/Git:Github",
     "",
@@ -61,9 +61,9 @@ projects.push(new Project(
     "Internship CrescentOne", 
     "2022",
     "/images/ProjectCrescentOne/CrescentOneImgOne.png",
-    "During the first 2 weeks I delved into several topics that are important within the company. These were topics such as REST APIs, the software they use, networking, and working with GitHub and Azure DevOps. After these 2 weeks, my old internship supervisor Ard put me on c1crm. C1crm is CrescentOne's integration technology between HubSpot, FreshDesk and CrescentOne's CRM database. Ard gave me assignments that I worked on for the rest of my internship. I delivered my work to CrescentOne on January 10.",
+    "During the first 2 weeks I delved into several topics that are important within the company. These were topics such as REST APIs, the software they use, networking, and working with GitHub and Azure DevOps. After these 2 weeks, my old internship supervisor Ard put me on c1crm. C1crm is CrescentOne's integration technology between HubSpot, FreshDesk and CrescentOne's CRM database. Ard gave me assignments that I worked on for the rest of my internship. I delivered my work to CrescentOne on January 10 2024.",
     "",
-    "NodeJS/Node-Red/Git:Github (Actions)",
+    "NodeJS/Node-Red/C#/Networking/Databases/Git:Github (Actions)",
     "/images/ProjectCrescentOneo/CrescentOneImgTwo.jpg",
     ""
 ));
@@ -78,7 +78,7 @@ projects.push(new Project(
     <br><br>
         <a class="mailto"  target="_blank" href="/pages/GDD Superhero Game.pdf">My exam</a>`,
     "",
-    "Word",
+    "Game Design/MDA model",
     "",
     ""
 ));
@@ -91,7 +91,7 @@ projects.push(new Project(
     "/images/ProjectGrappleGame/GrappleGameImgOne.png",
     "The grapple game was a project from school in the first year. It’s a grapple demo made in Unity where I made a grapple system where you can grapple around in a map with a little parkour. I had fun making it and was happy with the end result. I learned a lot about Unity and C# and can use that knowledge for future projects.",
     "",
-    "Unity/C#/Git:Github",
+    "Unity/C#/Git:Github/Simple Physics",
     "",
     ""
 ));
@@ -104,7 +104,7 @@ projects.push(new Project(
     "/images/ProjectMouseGame/MouseGameImgOne.png",
     "The Mouse Game was my final exam of my software developer study on SintLucas, and was also potentionally as an intake asignment for BUAS. It utilises the power of SFML to create the game, it game me the extra challange and motivation to make something good of this project. It game me the chance to learn how to make games without a game engine and learn a lot of C++. This project brought me a lot of knowlegde in all aspects of game development and general computer science.",
     "During the produciton of this game I applied the agile software development. For the project itself, I used Premake5 for the build system and a simple object oriented approach to building the project. All objects in the game inherit from the same base object.",
-    "SFML 2.6.1/Git:Github/Premake 5/Paint",
+    "C++/SFML 2.6.1/Object Oriented Programming/Git:Github/Premake 5/Paint",
     "/images/ProjectMouseGame/MouseGameImgTwo.png",
     ""
 ));
@@ -115,9 +115,9 @@ projects.push(new Project(
     "Internship Ricoh", 
     "Jan 2025 - May 2025",
     "/images/ProjectRicoh/RicohImgOne.jpg",
-    "During my internship at Ricoh Netherlands I worked a lot with ASP.NET and SQL to work on a internal piece of software that holds informationa bout what products customers have.",
+    "During my internship at Ricoh Netherlands I worked a lot with ASP.NET and SQL to work on a internal piece of software that holds information bout what products customers have.",
     "",
-    "ASP.NET/Git/C#/SQL/Jquery",
+    "ASP.NET/Git/C#/SQL/Jquery/Azure",
     "",
     ""
 ));
@@ -130,7 +130,7 @@ projects.push(new Project(
     "/images/ProjectRóka/RókaImgOne.png",
     "Ròka is a 2D boss fight game were you will play as a little fox in a underground world. A boss will chase you and you will have to fight against him. It was a school project where 2 developers had to work together with a few designers. The final game we had to put on a arcade at school. It was a very fun experience and I learned a lot about working with a team and to play stuff with a team to get work done on time.",
     `<iframe src="https://itch.io/embed/1874348" width="552" height="167" frameborder="0"><a href="https://jonesy-b.itch.io/roka">Róka by Jonesy B</a></iframe>`,
-    "Unity/C#/Agile Development/Git:Github",
+    "Unity/C#/Agile Development/Teamwork/Git:Github",
     "",
     ""
 ))
@@ -176,7 +176,7 @@ projects.push(new Project(
         <li>Config system</li>
         <li>Textures</li>
     </ul>`,
-    "C++/OpenGL/GLFW",
+    "C++/OpenGL/GLFW/ImGui",
     "",
     ""
 ))
