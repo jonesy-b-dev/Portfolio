@@ -116,7 +116,7 @@ projects.push(new Project(
     "Jan 2025 - May 2025",
     "/images/ProjectRicoh/RicohImgOne.jpg",
     "During my internship at Ricoh Netherlands, I was part of the Solutions team, focusing on software development for internal tools. I mainly contributed to the SIS (Solution Information System), which manages customer information. I worked with C#, ASP.NET, and Git, and started by fixing errors in an ongoing system refactor. Over time, I implemented new features, including expanding the customer contact functionality. This experience helped me grow both technically and professionally, especially in writing clean, maintainable code and working independently within a development team.",
-    "For my final project, I developed an automation system to streamline the processing of emails related to billing information in RSI (Ricoh's printer software) contracts. Previously, these emails had to be entered manually by resellers, which was inefficient. I designed and implemented a solution using Hangfire to automate this task, improving both speed and reliability. This project strengthened my skills in backend development, system design, and working with job scheduling systems in .NET.",
+    "For my final project, I developed an automation system to streamline the processing of emails related to billing information in RSI (Ricoh's printer software) contracts. Previously, these emails had to be entered manually by resellers, which was inefficient. I designed and implemented a solution using Hangfire to automate this task, improving both efficieny and reliability. This project strengthened my skills in C#, some backend, system design, and working with job scheduling systems in .NET.",
     "ASP.NET/Git/C#/SQL/Jquery/Azure",
     "",
     ""
